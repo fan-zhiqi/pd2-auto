@@ -1,0 +1,81 @@
+
+部署：
+allure
+# 创建安装目录
+$ mkdir node && cd node
+# 下载安装包
+$ wget https://npm.taobao.org/mirrors/node/v15.8.0/node-v15.8.0-linux-x64.tar.gz
+# 解压缩安装包
+$ tar -zxvf node-v15.8.0-linux-x64.tar.gz
+$ rm -rf node-v15.8.0-linux-x64.tar.gz
+# 创建软链
+$ ln -s /data/node/node-v15.8.0-linux-x64/bin/npm /usr/bin/npm
+$ ln -s /data/node/node-v15.8.0-linux-x64/bin/node /usr/bin/node
+下载包推送到服务器上解压
+cd /opt
+下载地址：https://registry.npmjs.org/allure-commandline/-/allure-commandline-2.13.0.tgz
+$ tar -zxvf allure-commandline-2.13.0.tgz
+$ mv package allure
+$ chmod -R 777 allure
+$ ln -s /data/allure/bin/allure /usr/bin/allure
+
+源代码上传到服务器
+1.进入python项目文件
+$ cd ./pd2
+2.用创建虚拟环境
+$ virtualenv -p python3 venv或者 python3 -m venv venv
+3.使虚拟环境生效（激活虚拟环境）
+$ source ./venv/bin/activate
+4.批量安装python包。
+pip3 install -r ./requirements.txt
+5运行main.py文件
+$ python main.py
+
+nginx安装
+1创建一个文件夹
+cd /usr/local
+mkdir nginx
+cd nginx
+2下载tar包
+wget http://nginx.org/download/nginx-1.13.7.tar.gz
+tar -xvf nginx-1.13.7.tar.gz
+cd nginx-1.13.7
+3执行命令 考虑到后续安装ssl证书 添加两个模块
+./configure ./configure --prefix=/usr/local/nginx
+4执行make命令
+make
+5执行make install命令
+make install
+6启动服务
+/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+7.配置nginx.conf
+vi /usr/local/nginx/conf/nginx.conf
+8重启
+/usr/local/nginx/sbin/nginx -s reload
+
+
+脚本执行注意：
+环境配置：sw设置场次4个以上pos_show_attributes属性,4个无属性的场次
+前期，手动账号对应的影院，切换对应的组织，后期添加自动化
+constants.py中设置complex_uuid
+macro的split_title写死emulator-T1000
+show在进入syc后，会判断失败，要人工审核
+
+框架：
+client为封装接口文档
+assumptions为@gives
+actions为@when
+assertions为@then
+
+模块：
+url在constant中字典形式保存，可查询每个服务的url+port
+features.step.api.api_utils封装requests：RequestsSession(base_url).(请求方式)(请求带参)
+features.setup.producer_login()初始化登录 登录成功调用wait_for_producer_login(),登出logout()
+
+@title
+创建title:TitleClient().create_title()
+查询title:TitleClient().query_title()
+
+@content
+...
+

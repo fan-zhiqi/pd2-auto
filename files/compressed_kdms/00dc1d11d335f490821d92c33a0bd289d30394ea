@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCinemaSecurityMessage xmlns:enc="http://www.w3.org/2001/04/xmlenc#" xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+  <AuthenticatedPublic Id="ID_AuthenticatedPublic">
+    <MessageId>urn:uuid:da52d480-9f8c-401a-9492-7467434e846f</MessageId>
+    <MessageType>http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type</MessageType>
+    <IssueDate>2017-07-18T15:53:50-00:00</IssueDate>
+    <Signer>
+      <dsig:X509IssuerName>dnQualifier=OPbRwqLTCYNX4YDh3E9yi\+hgWc0=,CN=.PRODUCTS.CA.DC.OPENCUBETECH.COM,OU=CA.DC.OPENCUBETECH.COM,O=DC.OPENCUBETECH.COM</dsig:X509IssuerName>
+      <dsig:X509SerialNumber>154</dsig:X509SerialNumber>
+    </Signer>
+    <RequiredExtensions>
+      <KDMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-1/2006/KDM">
+        <Recipient>
+          <X509IssuerSerial>
+            <dsig:X509IssuerName>dnQualifier=BnB0iDJLgyqiWUjn1uqrOy2/DEE=,CN=.US1.DCS.DOLPHIN.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</dsig:X509IssuerName>
+            <dsig:X509SerialNumber>89352159566829474</dsig:X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>dnQualifier=bstYf7gwziRDTuraybAOIvSRu2I=,CN=LE SPB MD FM SM.DCP2000-251669.DC.DOLPHIN.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</X509SubjectName>
+        </Recipient>
+        <CompositionPlaylistId>urn:uuid:85ad213b-b652-45bb-9b1b-f63aa8ba449d</CompositionPlaylistId>
+        <ContentTitleText>A47Metros_FTR-1_S_EN-ES_ES-NR_51_2K_20170705_ANT_IOP_VF</ContentTitleText>
+        <ContentKeysNotValidBefore>2017-07-20T16:00:19-00:00</ContentKeysNotValidBefore>
+        <ContentKeysNotValidAfter>2017-09-07T21:59:19-00:00</ContentKeysNotValidAfter>
+        <AuthorizedDeviceInfo>
+          <DeviceListIdentifier>urn:uuid:26d0ae48-ec38-4b0b-94cc-a0c8ef6cb91b</DeviceListIdentifier>
+          <DeviceList>
+            <CertificateThumbprint>2jmj7l5rSw0yVb/vlWAYkK/YBwk=</CertificateThumbprint>
+          </DeviceList>
+        </AuthorizedDeviceInfo>
+        <KeyIdList>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:0752b21b-e216-4536-9b81-a9669f342cd2</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDAK</KeyType>
+            <KeyId>urn:uuid:e8cfbcaa-741c-48c2-9b82-3ef3d72bfd00</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:b6e67809-bfb9-4920-9b85-81231274b822</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDAK</KeyType>
+            <KeyId>urn:uuid:c99c18cf-1b45-4abe-9b86-f2770d564552</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:5caa0f52-d6c3-439c-9b89-2df7fd4396a3</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDAK</KeyType>
+            <KeyId>urn:uuid:a52ad540-52f2-4bed-9b8a-411e3a554019</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:ecadf519-f4a8-425e-9b8d-c166c1cafab2</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDAK</KeyType>
+            <KeyId>urn:uuid:1ecc7bae-a399-47a6-9b8e-da8fe88d7e91</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:e6409fca-1b90-49f8-9b91-acd01fa271c7</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDAK</KeyType>
+            <KeyId>urn:uuid:08465247-f1d2-4a57-9b92-811bb40bdb42</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDIK</KeyType>
+            <KeyId>urn:uuid:37a9d53b-239b-4020-9b95-d5b9d64a1abc</KeyId>
+          </TypedKeyId>
+          <TypedKeyId>
+            <KeyType scope="http://www.smpte-ra.org/430-1/2006/KDM#kdm-key-type">MDAK</KeyType>
+            <KeyId>urn:uuid:7e464357-4d75-42e6-9b96-d3748f591f70</KeyId>
+          </TypedKeyId>
+        </KeyIdList>
+      </KDMRequiredExtensions>
+    </RequiredExtensions>
+    <NonCriticalExtensions/>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="ID_AuthenticatedPrivate">
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>yaKsCBEDjeS+IygN48QMLWxrE5EYgf4UxmNekuDkB2L72dRaCPJR7RowHsiMl1I61q+9CnxxFINz
+YeTsPasVfKA/F64Fv4azYuqrK+GA/fvcyukqd0cS1Pkk9BEaLjQb4wtqNqV5LhN64YVX1pBZRBXV
+2oxKF7f3j+kqqJ5gpjvKSZEXBRblmU8BYq0B8SS3XadSA4hzju3FbHXoFtx4hSPKZELljWvAAGlo
+LQH6ZKmfZAnqZ5IWmqcO5ZH/RhhOJWt9R6EEX0lFhUG5ugCMOYR7v/JFTV2VfrGM7f6+3M+EBKv1
+4CYZ0Md0OeLFLTZ+0Ya2kMKVqUquFo1wCDbMLQ==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>dWgARMqaIJ27D9fdx/Xz/kamDyPGXwT3RoxtvKeeBoSg9Wdchx1feGYNuvirp7ZvWlLXeIJ7GQLE
+adRnF4YwxNkjCeBGv41sP+kVwwgc2MzKtEdcFLrgNosTnyIFRpVZtE9Iaybpuqs6fgql+OuJIwXO
+ni3X/gK1iuIuAoMfe8d8behmkKbkibFjHwdhLdcFP+zLE0mqyjxijwLvnepOjU81m6Og5O2Hh6yC
+HrkCqbMax7C9oSkxSX/b9zoa/HhctLIQO61DuQB/oC2DJ2C0UiRhIHdwT7CJ6/U9a09nxIE9FaVt
+nWviWOP7hpycgg/CokZn/xLa5rb8tL8K5DwHKA==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>ehT2mEn2Pbd7+jYXtGTGWqPqukiRc1eT1IeoZZ7W4RSIFWrxL0AQYoS9d9K1A+hZzgjOvENcm2PU
+1PCgDEcuM7tK8CCNuHedqZ95EE8F6uuEBVbNYupmGhUsrZWHpt3vo/p41eLBJtzl981Y1j0xL7Vd
+HZbtZeoeraKgQNrqn8soFOkridSShTaNfLzmxsvERU+Uxhr3yy89JoeC2+oInHYRm4qiNXcXh2IG
+796dsQa3A6aJK/KKYt0GH6ntZBPKEdBiVivK1fo+DKTkBoVZ3YdKC4H02B+y3rjPLwOkPwf8CcET
+HjDuXSeDipqIJZ1Jcf7OGk/mPCVHofrXHOnMLA==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>Jl/2HoGe8uTxa8ynVcA3vDejhYBhQE9qL/4t9OTypX/pT6UbEViuzKzlMv8s0SM5gsJ8cHRH0MyG
+5tv3gsn6lVQSosQ5XVF4+DjFw9+2z+HXWwUks8v7wKuQxE0DqcD5mDL4C6NoJ+xyTxKIQvxpvGlM
+BxxZ9GwS2TyK2CloR4OZ/IWDLfFTmNLuGZwSC+FE9EljLBQKPuuxn/YWNzPggcKEV+ncWqQLrJcP
+Wr+5HmAcR3ol0xcc+ievmertdrLcgjv7feGkxr/WDHOtvXDe4+X/V2I2b02/Xm435wP0zrUAP2/R
+KqIxz7oW1TSCiVFRRkLDoAXgHFII5z0F7ChTSA==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>DicSGwYKhlMxwGcak+q5czA5INXDD4hgld1f1B+/oJnKd19v71lylNdwIcZeQeR068/Prl2LMdR+
+VOvUIhh+1B2YRignYLUd3vAMX32YHkhXTDDVrMB7vBdVx8+qmJYRZpwc7OLN3YXL4srkgrMQUYJA
+TqlJs2jjm9LWEfkw9nhu2YDONqenMfBhIFDxhYSOLQq89Gq3Mr+Qfk1QoRwPTqqwb4K627jBiZHB
+V4+gKj/1DrkIrPmrhI5ucWIomCm0l/81iUcl+XxQLae+vsTGLeL0BRDj3fysDuaGrJduYzZakKqc
++hqrrgMxserYfpASV6joZMOJMtthodt1e28NYA==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>UEEPe5dvvWw6lYKYCyBHgXXlVa9LTfENwmfUI1yhp+MXK0qMsS7XcaMNJSGYsBD4HzPA2Cf26g7a
+jCsH6C+GRqngQHWfK89b3wppDI+3ymuQEWTjonKRggLGyRIRe0SDoVbzp0jGLKuNlvJtzOe4YgZB
+ufAtGByntwAWyyWWuJnDud3B0psoydyvxIWp6lzzzrx8rpcFD13O08BzHjC56DsftF66p2v+WBYp
+0FyKn4BoV1oPa7O/p4cBDC/tXqQWncSImaThkSU7PlsnzsKkP36qKkEK/JLYKICGBleiGijUwu2Z
+EzIPyThD119giHtJ3+HYPDUJL4jtzIZQ3mZP7A==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>Cde5T0SO1naff2H7s+J/m9sjvno7WQVrW5RxE+oFPDkl6SMp1dDBbtsrrFAnE4DWcRkHd80izYia
+LX29UAAIMx/FD+eTifa4RG4P+n//h8E/1CZPBh0Jka4MtFniUPjBH6TjUbnPpfJyuxLp5tnl77LH
+RUN/woqcGxHNFsTsv09ad7YwWUmFM4Sj9DaU7AsB4CV8SatJnPL1uWKWLUSYmkp20hBTcup20SEv
+ERMT5yNcD/OI0H9aB0C7PPOL+x5uEfUeTqbQdD/2DzMwrpkoZv4XdrIDB20L1bqTmzMGEba/OuBK
+17gSFuBpxULk4waRpPCsTCO2awjD+Axdw8hAqQ==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>RouPXaZ0mFjWJKAkrA8lbdTKr6xpb9glxomw+rmfXkQY76BkA7Xw6WOvTyVWXt4XEQw7UQrXAl89
+CDDNwK7DuTZxXbvL92Fo+a3JegJgL9Uhfd9ox16O5kQjFtPZjMIKvz5mptNGh0L1WdeIjvegT7Ek
+cbSW0wZQVSZRCU+WqSzIQ64IKLzQeewtUCoBJZoqbIOzkZdWNffcFVWfTep6vx/qgl+IdjNofczZ
+A5e+J/DQZhtLqmRcBnO4oi2/l1ChP8Wm2kGLiO7chuVNUg+Qxi6Vz2MH/Qd/tee+qQE3WSED+ao4
+nOiiqyM12IhO9lNKEZVtmO3CVrOYQKDHrPcUYA==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>FswEgh4AgKtNE5cGJdMA6dLcaYN8ANeMU0F47JdNzE2nsogzwU3QRoneYCiYkyNjNuxP1JSIM2Fp
+hw3kwWXc8qhihVQFnFaa/hT1v7k52dbD0peJWCwJ7fne7u0AglXVwBFZYe3fYdlkf9PUAOuAVRG5
+D2jtclZc2dRiqcWFy/WKTFZJNwnWCrYHw33tSg3X7ElaQH9EyBKrPkM6ABB2GAFOAFiTP5FHvodA
+YY+y+ZzWa9MCWXleNqzfVITt/867tKqVW7JMQ8vRZYxaapq4/5MnTQMvAK2ngxXRYv6w38rzfDol
+YG+d+fW4xGAm1Eoa+Hjyo274pL8M8Hs3uwikiw==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>F4O3sqsZD/okwhJ/nA7R6kDxExwGVrqqAL4a+dnZ8+oKjzpzLPiodc7uv8pD0dm33Id3cbLUrRk3
+9T+pcbuvcEtvEKn+gZBbcfZMkefRWYaDkoj6mXU/KWMPceVimk32RVBjXGet6YT86KQLa+TlNDdr
+cVc5g1jTNvf/JzPSyu6zljc5f6lF2LHsk/hf+c4sRXwcYxYPp4A5rLDdDrmxgdnwj3J7CnNj1EFf
+eBp33DsWno2GmhS440i+4P+cZ3yf0UIpOzs6rFuXzpurk+dtSyIAvmvH6361zWI8fisOYSdgNxzS
+TdNM4btKGSnlCA0BT7JkGF6jmCvqV9Wd7fc9Gw==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>DXbkr/EQhLzvzS9R4LtZA4WkSiv9W9Icw1GIPrbNjzC2dbrGNzW8/qnlMmBdujpUm7lSUUM+I2pn
+awxzr/kIxtjrMmpqcwDpPMF8xnvv0j4GaGakaW4CWLXr6HiKmXy/unszEkpdFi+0OSM6Hou1s2yt
++4GxLF3VR+kKlVcNYXJy1aqvbC3UHu5+pLrTdEwrubCfpQHFg6dGudv+/t1DOeN2730GNo9TRaMV
+ZoVksQdd/Y0dhTEk11orpiHG4JUVVLIcBRbBxfGw4t2YgY9Kbu8/Th/NEcs3AZoOmc0S8nIs+mlr
+YT2azIKxW4elVEb+ao7O+43WHC6A1VNmzDoj2w==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+    <enc:EncryptedKey>
+      <enc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      <enc:CipherData>
+        <enc:CipherValue>nPgP+y8ri1ddg1gLSDG70sbD1G3G8KnqJ8iHrUwzlokc6bjuSMrbm78nTHTI3RnRCOYOdsKSpSs1
+gnzhXVPiTyncxUbMie0/t/rQ7hJn7Q4GKVwgy10Dq8eMDRdO62Mw1iHAWEsGwq+7d6edH72A6kcJ
+gwPESy7xF9/48JkeTyi3+MdI3bod5F0JaOqgsbiy7lof/5CpWeWwH/6OYW95OAsLB6mEONaP8qup
+B1W3Z+GZl980rkX8aOos98Tn+Y8/xnV2iKSzK9bzN0okoGAZ5XoIdRgKBADxDKtGtosYbvJd2Hb4
+go76C7BdIWLYEo1zHTnSfmEvQa6C2E5mWG8Ljg==</enc:CipherValue>
+      </enc:CipherData>
+    </enc:EncryptedKey>
+  </AuthenticatedPrivate>
+  <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+    <dsig:SignedInfo>
+      <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+      <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <dsig:Reference URI="#ID_AuthenticatedPublic">
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <dsig:DigestValue>zAe/8eqlc8Ql/U4mM9h+IcQmT9o4hOWWsgI7JM/2Usk=</dsig:DigestValue>
+      </dsig:Reference>
+      <dsig:Reference URI="#ID_AuthenticatedPrivate">
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <dsig:DigestValue>a1kpnEtov5isrx1YYWRhFpDc6ceOdvFDVmLs4QE5egk=</dsig:DigestValue>
+      </dsig:Reference>
+    </dsig:SignedInfo>
+    <dsig:SignatureValue>JOaSmx1Mton4q6bxr7Yt18cp32sEf6jUs8A/mPnH3UK87A9/X3CXkYTUhZpKpzVEDAdPLhfmDgvC
+6rpe4J8D0xNeboV0xF9oZCaIbKtNC8fgwFtNLHM7DBzPl6jeeH+SRWHDF9MAHbkKBeVsKUl3ebiq
+3FQFVH56iPpVgJ578RwX7LvoC4c3yj9YvHKBmiRMBCNgD+81ikc9cnEe+PkccLV2UJASWIL90Pjl
+F9xxYjj6KVZ+nGGp3YRfogNYsWWWlWkDgccW9lkn+BUFh3moOxQdUlHIprmzYryQYCG1nGnu8Shu
+zZXUr/zqXd1CyrvmRwiK6oRsskxQtVevwSB7MA==</dsig:SignatureValue>
+    <dsig:KeyInfo>
+      <dsig:X509Data>
+        <dsig:X509IssuerSerial>
+          <dsig:X509IssuerName>dnQualifier=OPbRwqLTCYNX4YDh3E9yi\+hgWc0=,CN=.PRODUCTS.CA.DC.OPENCUBETECH.COM,OU=CA.DC.OPENCUBETECH.COM,O=DC.OPENCUBETECH.COM</dsig:X509IssuerName>
+          <dsig:X509SerialNumber>154</dsig:X509SerialNumber>
+        </dsig:X509IssuerSerial>
+        <dsig:X509Certificate>MIIEmjCCA4KgAwIBAgICAJowDQYJKoZIhvcNAQELBQAwgZExHDAaBgNVBAoTE0RD
+Lk9QRU5DVUJFVEVDSC5DT00xHzAdBgNVBAsTFkNBLkRDLk9QRU5DVUJFVEVDSC5D
+T00xKTAnBgNVBAMTIC5QUk9EVUNUUy5DQS5EQy5PUEVOQ1VCRVRFQ0guQ09NMSUw
+IwYDVQQuExxPUGJSd3FMVENZTlg0WURoM0U5eWkraGdXYzA9MB4XDTE1MDkwMTEz
+MzkxMFoXDTI1MDgyOTEzMzkxMFowgZAxHDAaBgNVBAoTE0RDLk9QRU5DVUJFVEVD
+SC5DT00xHzAdBgNVBAsTFkNBLkRDLk9QRU5DVUJFVEVDSC5DT00xKDAmBgNVBAMT
+H0NTLk9QRU5DVUJFLkRDLk9QRU5DVUJFVEVDSC5DT00xJTAjBgNVBC4THC9ydUpC
+S00vMmFyb2gxRHdaWXkxUk9ES3hXMD0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDEzz3YF1i30s4fgSRUqohbgpM6Y84barRQZ1HQilcw+NIFxs+xMIvX
+9ZynGhDnRvXIJaP/sigfaZSXLmNcIo999rvbKiSBXdJHt1zT65JrTqY5P9eEsP/b
+1Zd75o9rbXr4Ghi3ItE/PqZVd3zgIE1MkJ63gN2uO1oxbbysKB0FYLtIE7GAE4Gb
+zgdEjoCvAQDz19G1rbVVbgPEFNvngvw1OS1dSl5dvoDCIXxGRq8gB/n7g2hga0XA
+pg74eZBd4IaEpUDesKTcNfDG2yaulHV6b2gYp6IRDSG+nUwp7CC2lxe7wv5+KiRz
+CjO43CLbAZAO3+JrL/FYhBf+hCsU48eFAgMBAAGjgfowgfcwDAYDVR0TAQH/BAIw
+ADALBgNVHQ8EBAMCBaAwHQYDVR0OBBYEFP67iQSjP9mq6IdQ8GWMtUTgysVtMIG6
+BgNVHSMEgbIwga+AFDj20cKi0wmDV+GA4dxPcovoYFnNoYGTpIGQMIGNMRwwGgYD
+VQQKExNEQy5PUEVOQ1VCRVRFQ0guQ09NMR8wHQYDVQQLExZDQS5EQy5PUEVOQ1VC
+RVRFQ0guQ09NMSUwIwYDVQQDExwuUk9PVC5DQS5EQy5PUEVOQ1VCRVRFQ0guQ09N
+MSUwIwYDVQQuExxtS21RQlFLUDNPQU9WbVRvcXgyQUJxYUorQ3c9ggECMA0GCSqG
+SIb3DQEBCwUAA4IBAQAu1OmYgbLAj4b2C/IAtf8XxGL2iW169sj6QdIDOAuVjM/A
+H+1I9NGtHL3X+5gHlnWTDisMES1hfHfady+27O67uxeGrl6sUFZYA+cJF0TpBrlB
+IsoshvZsaf77Jrzt0e/QUy1bGgwquHp20VklzCxFeFUPjjDjl0Bqo9QxeB+QB+KA
+gCMLEsgn03fzXalarIfrFl2DZf3+8FGgqzStvizA8tSYwRDV+ZdGjzsNeHooxwh1
+CSoqwhQ9p9gEg2Rj/CDnc3Ph0JX6K3SveSbQQ4vakn9/lVaQ/WrxomXDA+IBUAGs
+jYOoOIsjtHveTT33LLrROO3UrQXSHDLUCi9Jkw9h
+</dsig:X509Certificate>
+      </dsig:X509Data>
+      <dsig:X509Data>
+        <dsig:X509IssuerSerial>
+          <dsig:X509IssuerName>dnQualifier=mKmQBQKP3OAOVmToqx2ABqaJ\+Cw=,CN=.ROOT.CA.DC.OPENCUBETECH.COM,OU=CA.DC.OPENCUBETECH.COM,O=DC.OPENCUBETECH.COM</dsig:X509IssuerName>
+          <dsig:X509SerialNumber>2</dsig:X509SerialNumber>
+        </dsig:X509IssuerSerial>
+        <dsig:X509Certificate>MIIEnTCCA4WgAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBjTEcMBoGA1UEChMTREMu
+T1BFTkNVQkVURUNILkNPTTEfMB0GA1UECxMWQ0EuREMuT1BFTkNVQkVURUNILkNP
+TTElMCMGA1UEAxMcLlJPT1QuQ0EuREMuT1BFTkNVQkVURUNILkNPTTElMCMGA1UE
+LhMcbUttUUJRS1AzT0FPVm1Ub3F4MkFCcWFKK0N3PTAeFw0xMTAyMTQxNjQ0NTFa
+Fw0zMTAyMDgxNjQ0NTFaMIGRMRwwGgYDVQQKExNEQy5PUEVOQ1VCRVRFQ0guQ09N
+MR8wHQYDVQQLExZDQS5EQy5PUEVOQ1VCRVRFQ0guQ09NMSkwJwYDVQQDEyAuUFJP
+RFVDVFMuQ0EuREMuT1BFTkNVQkVURUNILkNPTTElMCMGA1UELhMcT1BiUndxTFRD
+WU5YNFlEaDNFOXlpK2hnV2MwPTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBALVoypi9mnyg5UWKAdAhOCE8NOM5pDq2Xb3eD0nTUAQewEcy0q8UAQqMcdv2
+LYbzkn3aZ4UAgGiyiPcbKaCSHfw8li6dEabiiObjOY0tBjOpBnKNcX58IUp6nEf1
+F4kJl7+VdEZiyMgeXAjAkZPZWNeIg6w/KCIPnK1gKw4b6G9oRBAAs07kNKlCrPZI
+ze+CIBMB7wvJH38IGL01s/+CV9Ham9Kmwfc5y0N5q5gbkclMqMUkv6A0NYQXQyIz
+1vRfWLjKcz3D5qWw4fK1Lp3LUW6OVwxvi4GLWFrGi5AYlHA2Ca/RQLF6jdp933OA
+/BJIBavVxE/f/WF7JX1Z0dT1rL8CAwEAAaOCAQAwgf0wEgYDVR0TAQH/BAgwBgEB
+/wIBAjALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFDj20cKi0wmDV+GA4dxPcovoYFnN
+MIG6BgNVHSMEgbIwga+AFJipkAUCj9zgDlZk6KsdgAamifgsoYGTpIGQMIGNMRww
+GgYDVQQKExNEQy5PUEVOQ1VCRVRFQ0guQ09NMR8wHQYDVQQLExZDQS5EQy5PUEVO
+Q1VCRVRFQ0guQ09NMSUwIwYDVQQDExwuUk9PVC5DQS5EQy5PUEVOQ1VCRVRFQ0gu
+Q09NMSUwIwYDVQQuExxtS21RQlFLUDNPQU9WbVRvcXgyQUJxYUorQ3c9ggEBMA0G
+CSqGSIb3DQEBCwUAA4IBAQDMUifkqFEmVdqQhz/XhfTNapOtskfFnDGbK0mIr9Vl
+y8KkGcxL3fne5b4Urdp9O51vKbf+pSmwKb/9VUp0MBx9kzZto1/2f8v5ryjjOmst
+iu4OGZQS+MubltIwS+4fjq1L4uyzM4mXkKNGvjz+mlnssnP24T8FhHGSKjhRWskL
+rVd8jkeLRc3t3MdM/soz2tuDUaVn5wpUMkDMGqoARmlXVTkpDp2lPChHkekJZ0q8
+TzB6CmwYWy3G0QWafD/XtS0ND5FjXlTcqVMG9SfA7Wx87VJn7imgY7coEJKMs+wq
+fKGD60gBBrPAa+JOt1kV+bUuN4DMT9iUrU2UjLanj+hf
+</dsig:X509Certificate>
+      </dsig:X509Data>
+      <dsig:X509Data>
+        <dsig:X509IssuerSerial>
+          <dsig:X509IssuerName>dnQualifier=mKmQBQKP3OAOVmToqx2ABqaJ\+Cw=,CN=.ROOT.CA.DC.OPENCUBETECH.COM,OU=CA.DC.OPENCUBETECH.COM,O=DC.OPENCUBETECH.COM</dsig:X509IssuerName>
+          <dsig:X509SerialNumber>1</dsig:X509SerialNumber>
+        </dsig:X509IssuerSerial>
+        <dsig:X509Certificate>MIIEmTCCA4GgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTEcMBoGA1UEChMTREMu
+T1BFTkNVQkVURUNILkNPTTEfMB0GA1UECxMWQ0EuREMuT1BFTkNVQkVURUNILkNP
+TTElMCMGA1UEAxMcLlJPT1QuQ0EuREMuT1BFTkNVQkVURUNILkNPTTElMCMGA1UE
+LhMcbUttUUJRS1AzT0FPVm1Ub3F4MkFCcWFKK0N3PTAeFw0xMTAyMTQxNjQ0MjRa
+Fw0zMTAyMDkxNjQ0MjRaMIGNMRwwGgYDVQQKExNEQy5PUEVOQ1VCRVRFQ0guQ09N
+MR8wHQYDVQQLExZDQS5EQy5PUEVOQ1VCRVRFQ0guQ09NMSUwIwYDVQQDExwuUk9P
+VC5DQS5EQy5PUEVOQ1VCRVRFQ0guQ09NMSUwIwYDVQQuExxtS21RQlFLUDNPQU9W
+bVRvcXgyQUJxYUorQ3c9MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+7nlfbgyuXmp1PbyFWyWEpjln34qV3zXxdxztI3JV/rnrJh+47VUM9iIsrFbCkZQg
+O/ie5TkpEj2ADHWvcm6Mg/lKEb7aJbRPvPUWzS6fR+T6e4u3uge3cKGkWvNVrwAY
+zHcKKp+BOKVRwjCMSFbuk0XZoysivVzDeLUCfzx0W4Oae1RD9mcHmRREfvXXKfRj
+PdeISCPQsX+wQ/Fav75ufTS2H/rXmhqz609BWsBkPy6eMe+amjuID6tsj55Ev3KK
+RMYJNodqVrmFnP/tVX8SjyZM91H3naHGuWrJhtfNcpWJxeuZzleRk9aqHrDInEsU
+eKlg3EBVBmgwnv064AXa6wIDAQABo4IBADCB/TASBgNVHRMBAf8ECDAGAQH/AgED
+MAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUmKmQBQKP3OAOVmToqx2ABqaJ+CwwgboG
+A1UdIwSBsjCBr4AUmKmQBQKP3OAOVmToqx2ABqaJ+CyhgZOkgZAwgY0xHDAaBgNV
+BAoTE0RDLk9QRU5DVUJFVEVDSC5DT00xHzAdBgNVBAsTFkNBLkRDLk9QRU5DVUJF
+VEVDSC5DT00xJTAjBgNVBAMTHC5ST09ULkNBLkRDLk9QRU5DVUJFVEVDSC5DT00x
+JTAjBgNVBC4THG1LbVFCUUtQM09BT1ZtVG9xeDJBQnFhSitDdz2CAQEwDQYJKoZI
+hvcNAQELBQADggEBAFZ0TilpXAV02TdzlI/SUD7kKFkXc9ww5WaVjgDkGkSDNlx2
+RST+THGKR5lhM5PBQywsJNmJ+QzPRsMWgTxAdZfaeMejg0hlRFoN+1cuNILCrgwP
+uZ2AbhZLcXirFhEWTXBkh9PJlWuhx6DqrIPYapUWyYVinTsivhPbZ7hQPcn9SbBu
+xEM+v8wgt0ZmHr6x1TamRUl9iHpuEm7cAe2/BYyc2aGaub1gIElonHhO24Caeu7d
+hUpmI/HqOBH2dm/eOLN0DFtHQsWqSdj6ZIZKRKgG6cppJEeGB9v1LhpG+0CRxlFh
+vGe/Eqoan+PYI/7uWkXYFrqnFGWYeGmbEofm9j0=
+</dsig:X509Certificate>
+      </dsig:X509Data>
+    </dsig:KeyInfo>
+  </dsig:Signature>
+</DCinemaSecurityMessage>

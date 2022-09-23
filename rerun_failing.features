@@ -1,0 +1,3 @@
+# -- RERUN: 1 failing scenarios during last test run.
+features/feature_files/playlist/create_match_shows_auto_playlist.feature:27
+
